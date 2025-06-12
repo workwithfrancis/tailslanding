@@ -3,124 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <script src="https://kit.fontawesome.com/159daeec60.js" crossorigin="anonymous"></script>
-    <title>Tails Landing page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/1b4039e6e0.js" crossorigin="anonymous"></script>
+    <title>Tails.</title>
 </head>
-<body>'
-    <header class="header flex items-center justify-between py-5 mx-10 border-b border-gray-200">
+<body>
+    <header class="header flex items-center justify-between py-5 mx-10 px-10 border-b border-gray-200 xl:mx-32">
         <div class="logo">
-<h2>Tails <span>.</span></h2>
+            <h2 class="text-gray-900 font-bold text-xl">tails <span classs="text-indigo-600">.</span></h2>
+
+
         </div>
-    <nav class="navbar p-5 hidden" id="navbar">
-<div class="logo-nav">
-<h2 class="text-gray-900 font-bold text-xl">Tails <span class="text-.indigo-600">.</span></h2>
-</div>
-<ul class="mb-6">
-    <li class="mb-2 border-b border-gray-200"><a href="#">Home</a></li>
-    <li class="mb-2 border-b border-gray-200"><a href="#">Features</a></li>
-    <li class="mb-2 border-b border-gray-200"><a href="#">Blog</a></li>
-    <li class="mb-2 border-b border-gray-200"><a href="#">Contact</a></li>
-</ul>
-<ul>
-    <li class="mb-2"><a href="#">Sign in</a></li>
-    <li class="bg-indigo-600 text-white p-2 rounded-b-lg"><a href="#"></a>Sign up</li>
-</ul>
-</nav>
 
-<div>
-    <i class="fas fa-bars text-xl cursor-pointer"></i>
-</div>
-</header> 
-
-    <!--Section-1-->
-    <section class="showcase py-20 px-10">
-<h1 class="text-gray-900 font-bold text-5xl mb-5 ">Start Crafting Your <span class="text-indigo-600 block">Next Great Idea</span></h1>
-<p class="text-gray-600">Simplifying the creation of landing pages, blog pages, application pages and so much more!</p>
-
-<div class="relative mt-10">
-    <a href="#_" class="bg-indigo-600 p-3 rounded-full text-white block w-full text-center shadow-lg transition-all border-2 border-indigo-600 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600">Purchase Now</a>
-<p class="absolute -top-3 -right-2 bg-green-500 py-1 px-2 rounded-full text-white text-xs">Only #15/month</p>
-
-<a href="#_" class="text-center block text-indigo-600 mt-4">Learn More</a>
-    </div>
-    </section>
-    <!--end of section-1-->
-
-    <!--section-2-->
-    <section class="pt-32 pb-20 px-10">
-        <h2 class="font-bold text-4xl text-center text-gray-900">Our Features</h2>
-        <p class="text-lg text-center">Check out our list of awesome features below</p>
-
-        <div class="cards mt-10 sm:grid-cols-2 sm-gap-5 lg.grid-cols-3 xl:px-32">
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-file-export"></i>  
-<h4 class="font-bold text-xl text-gray-800 mb-2">Certifications</h4>
-<p>Each of our plan will provide you and your team with certifications.</p>
-</div>
-
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-bell"></i>
-<h4 class="font-bold text-xl text-gray-800 mb-2">Notifications</h4>
-<p>Send out notifications to all your customers to keep them engaged.</p>
-</div>
-
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-file-zipper"></i>
-<h4 class="font-bold text-xl text-gray-800 mb-2">Bundles</h4>
-<p>High-quality bundles of awesome tools to help you out.</p>
-</div>
-
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-envelope"></i>
-<h4 class="font-bold text-xl text-gray-800 mb-2">Developer Tools</h4>
-<p>Developer tools to help grow your application and keep it up-to-date.</p>
-</div>
-
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-shield-halved"></i>
-<h4 class="font-bold text-xl text-gray-800 mb-2">Building Blocks</h4>
-<p>The right kind of building blocks to take your company to the next level.</p>
-</div>
-
-<div class="card bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
-    <i class="text-xl text-white bg-indigo-600 p-5 rounded-full mb-5 fas fa-square-check"></i>
-<h4 class="font-bold text-xl text-gray-800 mb-2">Coupons</h4>
-<p>Coupons system to provide special offers and discounts for your app.</p>
-</div>
+        <nav class="navbar p-5 hidden md:block" id="navbar">
+            <div class="logo-nav mb-4 md:mb-0">
+                <h2 class="text-gray-900 font-bold text-xl md:hidden">tails <span classs="text-indigo-600">.</span></h2>
+            </div>
+            <ul class="mb-6 md:mb-0 md:flex">
+                <li class="mb-2 border-b border-gray-200 md:border-0 md:ml-2"><a href="">Home</a></li>
+                <li class="mb-2 border-b border-gray-200 md:border-0 md:ml-2"><a href="">Features</a></li>
+                <li class="mb-2 border-b border-gray-200 md:border-0 md:ml-2"><a href="">Blog</a></li>
+                <li class="mb-2 border-b border-gray-200 md:border-0 md:ml-2"><a href="">Contact</a></li>
+            </ul>
+            </nav>
+            <ul class="hidden md:block md:flex md:items-center">
+                <li class="mb-2 md:mb-0"><a href="">Sign In</a></li>
+                <li class="bg-indigo-600 text-white p-2 rounded-b-lg md:rounded-lg md:ml-2"><a href="">Sign Up</a></li>
+            </ul>
+        <div class="md:hidden">
+            <i class="fas fa-bars text-xl cursor-pointer"></i>
         </div>
-    </section>
-    <!--end of section-2-->
 
-    <!--Section-3-->
-    <section class="px-10 pb-20">
-        <div>
-            <h5 class="text-gray-800 uppercase">Work smarter</h5>
-    <h3 class="text-gray-800 font-bold text-4xl mb-4">Features to help you work smarter</h3>
-    <p class="text-gray-600 mb-10">We've created a simple formula to follow in order to gain more out of your business and your application.</p>
-    <a href="#"
-    class="bg-indigo-600 py-5 px-6 rounded-lg text-white shadow-lg transition-all border-2 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600"
-    >
-Get Started Today
-    </a>
-</div>
+    </header>
+    <main>
+        <section class="showcase py-20 px-10 flex flex-col items-center justify-center">
+            <h1 class="text-gray-900 font-bold text-5xl mb-5 text-center lg:text-8xl">Start Crafting Your <span class="text-indigo-600 block">Next Great Idea</span></h1>
+            <p class="text-gray-600 lg:text-xl">Simplifying the cretion of landing pages. blog page, application pages and so much more!</p>
+            <div class="relative mt-10">
+                <a href="" class="bg-indigo-600 p-3 rounded-full text-white block w-full text-center mt-4 shadow-lg transiton-all border-2 border-indigo-600 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600">Purchase Now
+                </a>
+                <p class="absolute -top-1 -right-2 bg-green-500  py-2 px-2 rounded-full text-white text-xs">only $15/month</p>
+                <a href="" class="block text-indigoo-600 text-center mt-4">Learn More</a>
+                
+               
+            </div>
+        </section>
+        <section class="pt-32 pb-20 px-10">
+            <h2 class="font-bold text-4xl text-center text-gray-900">Our Features</h2>
+            <p class="text-lg text-center">Cheek out our iist of aweosme features below.</p>
 
-<form class="mt-10">
-<h4 class="font-bold text-xl">Signup</h4>
-<p class="text-gray-600 mb-5">or, if you have an account you can <a href="" class="text-indigo-600 underline" Sign in></a></p>
+            <div class="cards mt-10 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:px-32">
+                <div class="card sm:mb-0 bg-gray-200 p-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl bg-indigo-600 text-white rounded-full mb-5 p-5 fas fa-file-video"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Certfications</h4>
+                    <p>Each of our plan will provide you and your team with certifictions.</p>
+                </div>
+                <div class="card sm:mb-0 bg-gray-200 px-5 pt-10 pb-5 mb-10  rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl rounded-full p-5 bg-indigo-600 text-white mb-5 fas fa-bell"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Notifications</h4>
+                    <p>Send out Notifications to all your customers to keep them engaged.</p>
+                </div>
+                <div class="card sm:mb-0 bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl text-white bg-indigo-600 p-5 mb-5 rounded-full fas fa-file-archive"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Bundles</h4>
+                    <p>High-quality bundles of awesome tools to help you out.</p>
+                </div>
+                <div class="card sm:mb-0 bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl text-white bg-indigo-600 rounded-full mb-5 p-5 fas fa-database"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Developer Tools</h4>
+                    <p>Developer tools to help grow our application and keep it up-to-date.</p>
+                </div>
+                <div class="card sm:mb-0 bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl text-white bg-indigo-600 rounded-full mb-5 p-5 fas fa-th-large"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Building Blocks</h4>
+                    <p>The right kind of building blocks to take your company to the next level.</p>
+                </div>
+                <div class="card sm:mb-0 bg-gray-200 px-5 pt-10 pb-5 mb-10 rounded-lg shadow-lg transition-all hover:shadow-sm text-center">
+                    <i class="text-xl text-white bg-indigo-600 fas p-5 rounded-full mb-5 fa-ticket-alt"></i>
+                    <h4 class=" font-bold text-xl text-gray-800 mb-2">Coupons</h4>
+                    <p>Coupons system to provide special offers and discounts for your app.</p>
+                </div>
+            </div>
+        </section>
 
-<label>Name</label>
-<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
-<label>Email</label>
-<input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
-<label>Password</label>
-<input type="password" name="password" id="Password" placeholder="Password" required>
-<button type="submit">Create Account</button>
-<button type="submit">Sign up with google</button>
-</form>
-    </section>
-    <!--end of section-3-->
-   <script src="app.js"></script>
+        <section class="px-10 pb-20 md:grid md:grid-cols-2 md:items-center md:gap-10 xl:px-32">
+            <div>
+                <h5 class="text-gray-800 uppercase">Work smarter</h5>
+            <h3 class="text-gray-800 font-bold text-4xl mb-4 lg:text-6xl">Features to help you work smarter</h3>
+            <p class="text-gray-600 mb-10">We've created a simple fromula to follow in order to gain more out of our buiness and your application.</p>
+            <a href="" class="bg-indigo-600 py-5 px-6 rounded-lg text-white shadow-lg transiton-all border-2 border-idingo-600 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600">Get Started Today
+                </a>
+            </div>
+            <div class="mt-10">
+                <div><h4 class="font-bold text-xl">Signup</h4>
+                <p class="text-gray-600 mb-5">Or, if you have an account you can <a href="" class="text-indigo-600 underline">Sign in</a></p></div>
+                <form class="flex flex-col">
+                <label>Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required class="bg-gray-300 rounded-lg p-4 mb-5">
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required class="bg-gray-300 rounded-lg p-4 mb-5">
+                <label>Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required class="bg-gray-300 rounded-lg p-4 mb-5">
+                <button type="submit" class="bg-indigo-600 p-3 px-6 rounded-lg text-white shadow-lg transiton-all border-2 border-idingo-600 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600 font-bold">Create Account</button>
+                <button class="border border-gray-300 rounded-lg mt-5 p-3 hover:bg-gray-200 font-bold transition-all">Sign Up with Google</button>
+                </form>
+            </form>
+        </section>
+        <section class="bg-gray-100 pb-20 md:grid md:grid-cols-2 md:items-center xl-px32">
+           <div class="pt-5 px-10">
+             <h5 class="uppercase text-indigo-600 text xl">Our customers love our product</h5>
+            <h3 class="font-bold text-3xl text-gray-900 mt-2 mb-4 lg:text-6xl">Testimonials</h3>
+            <p class="mb-10 text-gray-600">Don't just take our word for it, read from your extensive list of case studies and customer testimonials.</p>
+            <a href="" class="bg-indigo-600 p-3 px-6 rounded-lg text-white shadow-lg transiton-all border-2 border-indigo-600 hover:shadow-sm cursor-pointer hover:bg-transparent hover:text-indigo-600 font-bold">View Case Studies</a>
+        </div>
+        <div class="cards px-10 mt-16 grid grid-cols-1 gap-5">
+            <div class="card flex items-center justify-center bg-white p-5 rounded-lg shadow-lg transition-all hover:shadow-sm">
+                <div>
+                    <p class="mr-5 mb-3">Awesome product! And the customer service is exceptionally well.</p>
+                    <h6 class="font-bold text-gray-900">Jane Cooper - <span class="text-gray-600 font-semibold">CEO SomeCompany</span></h6>
+                </div>
+
+                <div>
+                    <img class="w-20 rounded-full" src="" alt="">
+                </div>
+            </div>
+                        <div class="card flex items-center justify-center bg-white p-5 rounded-lg shadow-lg transition-all hover:shadow-sm">
+                <div>
+                    <p class="mr-5 mb-3">I can't express enough, how amazing this service has been for my company.</p>
+                    <h6 class="font-bold text-gray-900">John Doe - <span class="text-gray-600 font-semibold">CEO SomeCompany</span></h6>
+                </div>
+
+                <div>
+                    <img class="w-20 rounded-full" src="" alt="">
+                </div>
+            </div>
+                        <div class="card flex items-center justify-center bg-white p-5 rounded-lg shadow-lg transition-all hover:shadow-sm">
+                <div>
+                    <p class="mr-5 mb-3">I can't express enough, how amazing this service has been for my company.</p>
+                    <h6 class="font-bold text-gray-900">John Smith - <span class="text-gray-600 font-semibold">CEO SomeCompany</span></h6>
+                </div>
+
+                <div>
+                    <img class="w-20 rounded-full" src="" alt="">
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="py-20 px-10 lg:w-1/2 lg:mx-auto">
+            <h5 class="font-bold  text-xl mb-10">Frequently Asked Questions</h5>
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">What is Tails?</h6>
+                <p>Tails is a drag and drop page builder built on Top of TailwindCSS. You can drop components to create a page that you can export.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">Can i try it for free?</h6>
+                <p>Absolutely, you can try out tails for free however, if you wish to access all the components and export the page you'll need to upgrade your account.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">Where do I go to upgrade my account?</h6>
+                <p>You can upgrade your account by visiting The Pro Upgrade Page. You will also gain access to many other applicatons and sections of the site, here.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">How long will I have to access Tails</h6>
+                <p>You will have unlimited access to all your pre-built pages; however, if you want to be able to download and export your pages, you'll need a pro account. Paddle for processing payments.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">How do I implement into my project</h6>
+                <p>implementation in your project is very simple. You can use the exported page as a starting point, or you can copy and paste the HTML into your own page.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">What is the license on the pages?</h6>
+                <p>You have unlimited use to the templates used in Tails; however, you cannot re-use the templates to sell for others to use.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">Can I cancel my account if I not longer need it?</h6>
+                <p>Of course, you can feel free to cancel your account at anytime, and you can feel free to come back and upgrade again whenever you're ready.</p>
+            </div>
+
+            <div class="mb-8">
+                <h6 class="font-semibold text-gray-900 mb-4">What if I need help with my project?</h6>
+                <p>If you need assistance implementing the templates into your project you can contact support or you can visit our question section.</p>
+            </div>
+        </section>
+        <section class="pb-20">
+           <div class="px-10 text-center mb-5">
+             <h4 class="font-bold text-3xl mb-2">Simple, Transparent Pricing</h4>
+            <p>Pricing to fit the needs of any companie size.</p>
+           </div>
+            
+            <div class="grid grid-cols-1 gap-5 px-10 sm:grid-cols-2 lg:grid-cols-3 xl:px-32">
+                <div class="text-center border border-gray-400 p-5 rounded-lg">
+                <h3 class="font-bold text-2xl mb-5 text-gray-900">Starter</h3>
+
+                <h5 class="text-5xl text-gray-900 font-bold">$5 <span class="text-gray-600 text-base font-semibold">/month</span></h5>
+                <p class="mt-5 mb-10">Ideal for Startups and Small Companies</p>
+
+                <ul class="text-left my-5">
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Automated Reporting</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Faster Processing</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Customization</li>
+                </ul>
+                <button class="border border-indigo-600 block w-full rounded-lg p-3 hover:bg-indigo-600 text-indigo-600 hover:text-white transition-all">Select Plan</button>
+            </div>
+
+            <div class="text-center border-4 border-indigo-600 p-5 rounded-lg">
+                <h3 class="font-bold text-2xl mb-5 text-gray-900">Basic</h3>
+
+                <h5 class="text-5xl text-gray-900 font-bold">$15 <span class="text-gray-600 text-base font-semibold">/month</span></h5>
+                <p class="mt-5 mb-10">Ideal for medium size businesses to larger businesses</p>
+
+                <ul class="text-left my-5">
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Everything in Starter</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>100 Builds</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Progress Reports</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Premium support</li>
+                </ul>
+                <button class="border bg-indigo-600 border-indigo-600 block w-full rounded-lg p-3 hover:bg-indigo-700 text-white transition-all">Select Plan</button>
+            </div>
+            <div class="text-center border border-gray-400 p-5 rounded-lg">
+                <h3 class="font-bold text-2xl mb-5 text-gray-900">Starter</h3>
+
+                <h5 class="text-5xl text-gray-900 font-bold">$25 <span class="text-gray-600 text-base font-semibold">/month</span></h5>
+                <p class="mt-5 mb-10">Ideal for larger and enterprise companies</p>
+
+                <ul class="text-left my-5">
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Everything in Basic</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Unlimited Builds</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Advanced Analytics</li>
+                    <li class="my-2 font-bold text-lg"><i class="fas fa-check text-indigo-600"></i>Company Evolutions</li>
+                </ul>
+                <button class="border border-indigo-600 block w-full rounded-lg p-3 hover:bg-indigo-600 text-indigo-600 hover:text-white transition-all">Select Plan</button>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="pb-10">
+        <ul class="flex items-center justify-center">
+            <li class="mx-2"><a class="text-gray-600" href="">About</a></li>
+            <li class="mx-2"><a class="text-gray-600" href="">Blog</a></li>
+            <li class="mx-2"><a class="text-gray-600" href="">Team</a></li>
+            <li class="mx-2"><a class="text-gray-600" href="">Pricing</a></li>
+            <li class="mx-2"><a class="text-gray-600" href="">Contact</a></li>
+            <li class="mx-2"><a class="text-gray-600" href="">Terms</a></li>
+        </ul>
+
+        <ul class="flex items-center justify-center my-5">
+            <li class="mx-1"><i class="text-gray-600 text-xl hover:text-gray-900 transition-all cursor-pointer fab fa-facebook"></i></li>
+            <li class="mx-1"><i class="text-gray-600 text-xl hover:text-gray-900 transition-all cursor-pointer fab fa-instagram"></i></li>
+            <li class="mx-1"><i class="text-gray-600 text-xl hover:text-gray-900 transition-all cursor-pointer fab fa-twitter"></i></li>
+            <li class="mx-1"><i class="text-gray-600 text-xl hover:text-gray-900 transition-all cursor-pointer fab fa-github"></i></li>
+            <li class="mx-1"><i class="text-gray-600 text-xl hover:text-gray-900 transition-all cursor-pointer fas fa-globe"></i></li>
+        </ul>
+
+        <div class="text-center">
+            <p class="text-gray-600">© SomeCompany, Inc. All Rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
 </body>
 </html>
